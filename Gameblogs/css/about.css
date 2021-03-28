@@ -1,0 +1,100 @@
+.nav{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #140951;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  font-family: 'poppins';
+  font-size: 40px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  border-bottom: green 5px solid;
+  border-top: green 5px solid;
+}
+body{
+  background-color: #6699CC;
+}
+
+.nav li{
+  float: left;
+}
+
+.nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+  border-right: green 5px solid;
+  margin: 0px;
+}
+#home-p{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+  border-right: green 5px solid;
+  margin: 0px;
+}
+
+.nav li a:hover{
+  background-color: #152069;
+}
+.active {
+  background-color: #4EADAF;
+  font-style: bold;
+  display: inline-block;
+  margin: 0px;
+  padding: 19px 16px;
+  color: white;
+  border-right: green 5px solid;
+}
+  body{
+    margin: 0px;
+    padding: 0px;
+  }
+  #logo{
+    width: 88px;
+    height: 88px;
+    display: block;
+    float: left;
+    border-left: green 5px solid;
+    border-right: #4EADAF 5px solid;
+    margin: 0px 0px 0px 0px;
+    padding-left: 5px ;
+    padding-bottom: 5px ;
+    padding-top: 5px ;
+  }
+  .home{
+
+    font-style: bold;
+    display: inline-block;
+    margin: 0px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    border-left: green 5px solid;
+    margin: 0px 0px 0px 0px;
+    padding: 19px 0px 19px 19px;
+  }
+  .scroll{
+    font-style: bold;
+    display: inline-block;
+    margin: 0px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 19px 0px 19px 19px;
+  }
+.underCon{
+  width: 500px;
+  height: 250px;
+  margin: 0px;
+  padding: 250px 500px;
+}
